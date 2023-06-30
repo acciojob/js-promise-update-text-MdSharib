@@ -3,7 +3,7 @@ const div = document.getElementById("output");
 
 let prom = new Promise((res, rej) => {
 	setTimeout(() => {
-		res("hello, world!");
+		res("Hello, world!");
 	}, 1000)
 })
 
